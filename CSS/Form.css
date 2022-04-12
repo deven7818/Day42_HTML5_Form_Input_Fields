@@ -21,6 +21,7 @@ body{
 form {
     margin-top: 50px;
 }
+
 div {
     margin-bottom: 20px;
     display: flex;
@@ -43,13 +44,10 @@ input {
     flex: auto;
 }
 button {
-    width: 90%;
-    align-items: center;
+    width: 70%;
     margin: 0 auto;
-    background-color: white;
-    font-size: 20px;
-    font-weight: bold;
-    background: rgb(229, 50, 74);
+    align-items: center;
+ 
 }
 
 error-output {

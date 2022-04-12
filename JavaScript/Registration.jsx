@@ -1,3 +1,7 @@
+
+/**
+ * Regex validation for Name, Email, PhoneNumberm Password
+ */
 const NAME_REGEX = RegExp('^[A-Z]{1}[a-zA-Z]{2,}$');
 const EMAIL_REGEX = RegExp('^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+[@]{1}[a-z0-9]+[.]{1}[a-z]+[.]?[a-z]+$');
 const PHONE_REGEX = RegExp('^[0-9]{0,2}\\s{0,1}[7-9]{1}[0-9]{9}$');
